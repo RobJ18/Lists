@@ -15,11 +15,12 @@ while thislist:
         time.sleep(.5)
 
     if listedit == '2':
-        print('\nCurrently these items are in your list: ', thislist)
+        print('\nCurrently these items are in your list: ', *thislist, sep='\n')
         time.sleep(.5)
     
     if listedit ==  '3':
         print('Exiting list!')
         break
-    
+
 exit
+
